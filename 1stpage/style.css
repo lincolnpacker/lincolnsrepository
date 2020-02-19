@@ -1,0 +1,113 @@
+
+body {
+    background-color: #a3d5d3;
+  }
+  main{
+    background-color: #1e2842;
+    border: solid 1em black;
+    width: 960px;
+    margin: 0px auto;
+  }
+  #header{
+    display:flex;
+    justify-content: center;
+    margin-bottom:20px;
+  }
+  #fit-picture{
+    width:60px;
+    text-align: center;
+  }
+  
+  #bio {
+  
+    display: flex;
+    margin-bottom:20px ;
+  }
+  #pic-of-me{
+   width:175px 
+    }
+  #bio-choose{
+    width:100%;
+    margin: 0px 0px 0px 20px;
+   
+  }
+  #name-date{
+    margin: 0px 0px 20px 0px;
+    display:flex;
+    justify-content: space-between;
+  }
+  .name{
+    style:bold;
+  }
+  #choose-list{
+    padding: 8px;
+    background-color: #555;
+    margin:0px;
+  }
+  ul{
+    padding-left:15px;
+    color: #ccc;
+    margin-bottom: 0px;
+  }
+  #tech{
+  
+    display: flex;
+    justify-content: space-between;
+   
+    
+  }
+  
+  .tech-pics{
+    max-height:200px;
+    margin:0px;
+  }
+  figure{
+    margin:0px;
+    text-align: center;
+      
+  }
+  
+  figcaption{
+    background-color: rgba(0, 0, 0, .5);
+    color: #ccc;
+    max-width: 200px;
+    margin-top:-20px;
+    position: relative;
+    top: -20px;
+    
+  
+  
+  }
+  #intrest{
+  
+  margin: 20px 0px 20px 0px;
+  }
+  
+  #excited-choice{
+    background-color: #555;
+    margin-top: 15px;
+    padding: 12px;
+  }
+  footer{
+    text-align: center;
+  }
+  
+  p{
+    color: #ccc;
+  }
+  
+   h2, h3, h4 {
+    color: #a6daf9;
+    margin: 0px;
+    font: 1.2em "Fira Sans", sans-serif;
+  }
+  h2, time {
+    font-weight: bold;
+  }
+  
+  time{
+    color: #fff;
+  }
+  
+  
+  
