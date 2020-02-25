@@ -1,9 +1,12 @@
-console.log ('Welcome To My Page')
+import{films} from '../StarWars/Data/people.js'
+import {people} from '../StarWars/Data/films.js'
 
-console.log(document.querySelection(.'greeting'))
+
 
 const greetingDiv = document.querySelector('.greeting')
 
-greetingDiv.textContent = 'I just inserted text into a DOM element using my mad JavaScript SKills!!'
+const castList = document.createElement("ul")
 
-console.log(greetingDiv.textContent)
+const listItem1 = document.createElement.("li")
+listItem1.textContent= people[0]
+greetingDiv.textContent = 'I just inserted text into a DOM element using my mad JavaScript SKills!!'
