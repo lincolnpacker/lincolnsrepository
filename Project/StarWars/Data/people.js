@@ -567,7 +567,7 @@ export const people = [
         "skin_color": "metal",
         "eye_color": "red",
         "birth_year": "15BBY",
-        "gender": "none",
+        "gender": "n/a",
         "homeworld": "https://swapi.co/api/planets/28/",
         "films": [
             "https://swapi.co/api/films/2/"
@@ -2002,7 +2002,7 @@ export const people = [
         "skin_color": "none",
         "eye_color": "black",
         "birth_year": "unknown",
-        "gender": "none",
+        "gender": "n/a",
         "homeworld": "https://swapi.co/api/planets/28/",
         "films": [
             "https://swapi.co/api/films/7/"
