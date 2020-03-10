@@ -1,0 +1,9 @@
+:root{
+    box-sizing: border-box
+}
+
+header, footer {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}

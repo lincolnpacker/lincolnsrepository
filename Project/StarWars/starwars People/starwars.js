@@ -1,6 +1,6 @@
-import{people} from '../StarWars/Data/people.js'
-import {films} from '../StarWars/Data/films.js'
-import {starships} from '../StarWars/Data/starships.js'
+import{people} from '../Data/people.js'
+import {getLastNumber, removeChildren} from '../scripts/utils'
+
 
 const greetingDiv = document.querySelector('.greeting')
 const maleButton = document.querySelector('#maleButton')
@@ -30,15 +30,8 @@ otherButton.addEventListener('click', event => {
     populateDOM(otherCharacters)
 })
 
-function getCharNumber(url) {
-let end = url.lastIndexOf('/')
-letstart= end - 2
-console.log(`start is: ${url.charAt(start)} and end is: ${url.charAt(end)}`)
-console.log(url.slice(start,end))
-if(url.charAt(start) === '/') {
-    start++
-}
-}
+
+
 
 //getCharNumber("https://swapi.co/api/people/1/")
 
@@ -46,7 +39,7 @@ if(url.charAt(start) === '/') {
 function populate DOM(maleCharacters) {
     maleCharacters.forEach(person =>
         //need to extract the number from the person.url Property
-    letcharNum = getCharNumber(person.url)
+    let lastNum = getLastNumber(person.url)
 let anchorWrap = document.createElement("a")
 anchorWrap.href = '#'
 
@@ -67,7 +60,7 @@ imageItem.addEventListener("click", (event) => {
     console.log(event)
 })
 anchorWrap.appendChild(imageItem)
-greetingDiv.appendChild(anchorWrap)
+gallery.appendChild(anchorWrap)
 counter++
 })
 maleButton.addEventListener("click"= , (event) => {
